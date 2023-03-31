@@ -24,6 +24,11 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/yconst/python-can-canine",
     packages=find_packages(include=['canine', 'canine.*']),
+    python_requires=">=3.10",
+    install_requires=[
+        "python-can",
+        "pyusb~=1.0"
+    ],
     entry_points = {
         'can.interface': [
             'canine = canine.canine:CANineBus'

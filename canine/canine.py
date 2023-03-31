@@ -9,9 +9,8 @@ Interface for CANine over USB (win32/macos/linux).
 # 0{command}{CAN frame}
 
 from typing import Any, Optional, Tuple
-from can import typechecking
 
-from ..exceptions import error_check
+from can.exceptions import error_check
 
 import struct
 import time

@@ -24,7 +24,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/yconst/python-can-canine",
     packages=find_packages(include=['canine', 'canine.*']),
-    python_requires=">=3.10",
+    python_requires=">=3.9",
     install_requires=[
         "python-can",
         "pyusb~=1.0"

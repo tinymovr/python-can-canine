@@ -16,7 +16,7 @@ README = (HERE / "README.rst").read_text()
 
 setup(
     name="python-can-canine",
-    version="0.2.1",
+    version="0.2.2",
     author="Yannis Chatzikonstantinou",
     author_email="info@tinymovr.com",
     description="Python-can CANine",

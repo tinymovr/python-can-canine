@@ -3,7 +3,7 @@ python-can-canine
 
 
 
-This module is a plugin that lets you use `CANine adapters <https://tinymovr.com/products/can-bus-adapter>`_ with the `CANine firmware <https://github.com/tinymovr/CANine>`_. in python-can.
+This module is a plugin that lets you use `CANine adapters <https://tinymovr.com/products/can-bus-adapter>`_ with the `CANine firmware <https://github.com/tinymovr/CANine>`_ in python-can.
 
 
 Installation

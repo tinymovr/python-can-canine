@@ -16,7 +16,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="python-can-canine",
-    version="0.2.3",
+    version="0.2.4",
     author="Yannis Chatzikonstantinou",
     author_email="info@tinymovr.com",
     description="Python-can CANine",
@@ -31,7 +31,7 @@ setup(
     ],
     entry_points = {
         'can.interface': [
-            'canine = canine.canine:CANineBus'
+            'canine = canine:CANineBus'
         ]
     }
 )

@@ -47,7 +47,7 @@ class CANineBus(BusABC):
 
     def __init__(
         self,
-        channel: typechecking.ChannelStr,
+        channel: typechecking.ChannelStr = None,
         bitrate: Optional[int] = None,
         usb_dev: Optional[usb.core.Device] = None,
         **kwargs: Any
